@@ -79,6 +79,8 @@ target 'gobarberApp' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
   target 'gobarberAppTests' do
     inherit! :complete
     # Pods for testing
